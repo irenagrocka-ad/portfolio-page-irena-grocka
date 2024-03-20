@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --primary-color: #f65282;
+  --secondary-color: #11111;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -83,7 +83,7 @@ p {
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
+  color: var(--box-shadow);
   font-size: 28px;
   text-decoration: none;
 }
@@ -119,4 +119,16 @@ p {
   .portfolio-page img {
     display: none;
   }
+}
+footer {
+  margin-top: 100px;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.s-l {
+  color: var(--primary-color);
+  margin: 25px;
 }
