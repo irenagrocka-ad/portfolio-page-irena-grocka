@@ -120,44 +120,6 @@ button {
   text-decoration: underline;
 }
 
-@media (max-width: 750px) {
-  h1 {
-    font-size: 38px;
-    line-height: 1.5;
-  }
-  h2 {
-    font-size: 22px;
-    text-align: center;
-  }
-  h3 {
-    font-size: 16px;
-    text-align: center;
-  }
-  .primary-button {
-    display: block;
-    text-align: center;
-    margin: 10px;
-    padding: 15px 10px;
-  }
-  .secondary-button {
-    display: block;
-    text-align: center;
-    margin: 10px;
-    padding: 15px 10px;
-  }
-  .hero-img img {
-    margin-top: 50px;
-  }
-  .project {
-    max-width: 300px;
-  }
-  .project .secondary-button {
-    max-width: 75px;
-    min-width: 50px;
-    padding: 0;
-  }
-}
-
 footer {
   margin-top: 100px;
   text-align: center;
@@ -165,10 +127,14 @@ footer {
 .about-page h1 {
   font-size: 64px;
   text-align: center;
+  margin: 20px 40px;
 }
 .about-page h2 {
   font-size: 18px;
-  margin: 20px 10px;
+  margin: 20px 40px;
+}
+.about-page .container {
+  margin: 20px 20px;
 }
 .about-page p {
   font-size: 16px;
@@ -202,6 +168,7 @@ footer {
 .portfolio-page h1 {
   font-size: 44px;
   margin-bottom: 20px;
+  text-align: center;
 }
 .project {
   background: var(--branding-background-color);
@@ -215,20 +182,88 @@ footer {
 }
 .project img {
   margin: 30px 15px;
-  width: 400px;
+  width: 360px;
   box-shadow: var(--box-shadow);
   border-radius: 20px;
 }
 .project .secondary-button {
   display: block;
-  width: 200px;
-  margin: 15px 100px;
+  width: 180px;
+  margin: 15px 90px;
   text-align: center;
 }
-
+.small-screen-button {
+  display: block;
+  width: 80px;
+  text-align: center;
+  color: var(--secondary-color);
+  border: none;
+  background-color: var(--branding-color);
+  box-shadow: var(--box-shadow);
+  text-decoration: none;
+  padding: 15px 15px;
+  border-radius: 10px;
+  font-size: 14px;
+}
 .project h2 {
   text-align: center;
   margin-top: 25px;
   margin-top: 10px;
   font-family: var(--heading-font-family);
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 32px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  h3 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .primary-button {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px 10px;
+  }
+  .secondary-button {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px 10px;
+  }
+  img {
+    margin-top: 50px;
+  }
+  .about-page h1 {
+    font-size: 28px;
+    margin: 20px;
+    text-align: left;
+  }
+  .about-page h2 {
+    font-size: 16px;
+    margin: 20px;
+    text-align: left;
+  }
+  .about-page .container {
+    margin: 0px;
+    font-size: 14px;
+    width: 100%;
+  }
+  .about-page img {
+    max-width: 260px;
+  }
+  .portfolio-page h1 {
+    font-size: 34px;
+    margin-bottom: 20px;
+  }
+  .project {
+    width: 100%;
+  }
 }
