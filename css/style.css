@@ -74,15 +74,13 @@ button {
 }
 .navigation-links {
   display: flex;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .primary-button {
   border-radius: 10px;
-  padding: 20px 15px;
-  margin: 50px;
+  padding: 15px 15px;
+  margin: 30px;
   text-decoration: none;
   text-transform: capitalize;
   background: var(--secondary-color);
@@ -102,8 +100,8 @@ button {
   background-color: var(--branding-color);
   box-shadow: var(--box-shadow);
   text-decoration: none;
-  margin: 50px;
-  padding: 20px 15px;
+  margin: 30px;
+  padding: 15px 15px;
   border-radius: 10px;
   font-size: 16px;
 }
@@ -151,7 +149,7 @@ button {
     margin-top: 50px;
   }
   .project {
-    max-width: 200px;
+    max-width: 300px;
   }
   .project .secondary-button {
     max-width: 75px;
@@ -162,6 +160,32 @@ button {
 
 footer {
   margin-top: 100px;
+  text-align: center;
+}
+.about-page h1 {
+  font-size: 64px;
+  text-align: center;
+}
+.about-page h2 {
+  font-size: 18px;
+  margin: 20px 10px;
+}
+.about-page p {
+  font-size: 16px;
+  text-align: justify;
+}
+.about-page img {
+  width: 360px;
+}
+
+.about-page .primary-button {
+  display: block;
+  width: 180px;
+  text-align: center;
+}
+.about-page .secondary-button {
+  display: block;
+  width: 180px;
   text-align: center;
 }
 .social-links {
@@ -186,7 +210,7 @@ footer {
   width: 900px;
 }
 .project p {
-  text-align: left;
+  text-align: justify;
   padding: 16px;
 }
 .project img {
